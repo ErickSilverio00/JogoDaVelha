@@ -19,7 +19,7 @@ Jogo da velha criado por mim, em JavaScript, com funcionalidades padrão, mas be
 
 ## 📁 Acesso ao projeto
 
-[Clique aqui para acessar](https://ericksilverio00.github.io/Calculadora/)
+[Clique aqui para acessar](https://ericksilverio00.github.io/JogoDaVelha/)
 
 ## 🛠️ Abrir e rodar o projeto
 
