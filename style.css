@@ -1,0 +1,131 @@
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --bg-color: #3B3486;
+    --primary-color: #FCFDF2;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;   
+}
+
+.titulo {
+    font-size: 3.8em;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.bloco-jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escolher-X-ou-O {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escolher-X-ou-O h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.botoes-escolha {
+    display: flex;
+    gap: 2em;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.botoes-escolha h2 {
+    cursor: pointer;
+}
+
+.bloco-jogo button {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--primary-color);
+    width: 3em;
+    height: 3em;
+    background-color: var(--bg-color);
+    border: none;
+    cursor: pointer;
+}
+
+.primeira-linha {
+    display: flex;
+    border-bottom: 5px solid;
+}
+
+.botao1 {
+    border-right: 5px solid;
+}
+
+.botao2 {
+    border-right: 5px solid;
+}
+
+.segunda-linha {
+    display: flex;
+    border-bottom: 5px solid;
+}
+
+.botao4 {
+    border-right: 5px solid;
+}
+
+.botao5 {
+    border-right: 5px solid;
+}
+
+.terceira-linha {
+    display: flex;
+}
+
+.botao7 {
+    border-right: 5px solid;
+}
+
+.botao8 {
+    border-right: 5px solid;
+}
+
+.final-jogo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.mensagem {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.jogar-novamente {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--bg-color);
+    height: 3em;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
+.jogar-novamente:hover {
+    color: var(--primary-color);
+    background-color: #8F43EE;
+}

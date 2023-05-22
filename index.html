@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/titleJogoDaVelha.png" type="image/x-icon">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Jogo da Velha</h1>
+    </header>
+    
+    <main class="principal">
+        <div class="escolher-X-ou-O">
+            <h3>Escolha qual você deseja ser:</h3>
+            <div class="botoes-escolha">
+                <h2 class="X" data-simbolo="X">X</h2>
+                <h2 class="O" data-simbolo="O">O</h2>
+            </div>           
+        </div>
+        <section class="bloco-jogo"></section>
+        <div class="final-jogo"></div>      
+    </main>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/escolherLugar.js"></script>
+    <script src="./js/verificarResultado.js"></script>
+    <script src="./js/desenhandoLinha.js"></script>
+</body>
+</html>
