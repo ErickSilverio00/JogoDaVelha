@@ -27,6 +27,17 @@ function verificarResultado() {
         mensagemFinalJogo()
         desenharLinha()
     }
+
+    else if ((lugares[0].textContent != "") && (lugares[1].textContent != "") && (lugares[2].textContent != "") && (lugares[3].textContent != "") && (lugares[4].textContent != "")
+    && (lugares[5].textContent != "") && (lugares[6].textContent != "") && (lugares[7].textContent != "") && (lugares[8].textContent != "")) {
+       finalJogo.innerHTML = `
+        <div class="mensagem">
+            <h2>Ninguém ganhou!</h2>
+        </div>
+        <div class="botao-recomecar">
+            <button class="jogar-novamente" id="jogar-novamente">Jogar novamente!</button>
+        </div>` 
+    }
 }
 
 function mensagemFinalJogo() {
